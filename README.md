@@ -47,15 +47,15 @@ Flux 應用部分引自 [@kenwheeler](https://twitter.com/ken_wheeler) 爲這篇
 
 * 遷徙至最新的 React v0.14，包括分離的 ReactDOM 包及其他新增或削除特性。請移步 [v0.14](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html) 的升級嚮導。
 * **Webpack** 綑綁器。
-* **Babel** 而非 JSXTransformer。
+* **Babel** 而非 JSXTransformer 轉譯 JSX 及日後的 ES2015（ES6）。
 * **Webpack-dev-server** 進行熱伺服。
 * **React-hot-loader** 實時重載。
 * **Uglify** 綑綁後腳本。
-* **Sass** 預處理樣式。所需的資源（諸如圖像和字型文件）一併綑綁入 JavaScript 中。*注意我使用 .woff 字型格式並將其轉譯爲 inline base64 string。*
+* **Sass** 預處理樣式。所需的資源（諸如圖像和字型文件）一併綑綁入`bundle.js`中。*注意我使用 .woff 字型格式並將其轉譯爲 inline base64 string。*
 
 ## 安裝
 
-1. 確保你的機器全局安裝了 npm 或甚或 Webpack。
+1. 確保你的機器全局安裝了 npm 甚或 Webpack。
 2. 下載 [zip](https://github.com/jasonlam0619/flux-webpack-boilerplate/archive/master.zip) 或 `git clone git@github.com:jasonlam0619/flux-webpack-boilerplate.git` 進你的電腦。
 3. `cd flux-webpack-boilerplate-master`
 4. `npm install`
