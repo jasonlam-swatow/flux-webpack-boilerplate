@@ -1,0 +1,31 @@
+{
+  "name": "flux-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for Flux and Webpack of my best practice.",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "keymirror": "~0.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "css-loader": "^0.21.0",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.4.1",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "uglify-loader": "^1.2.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "./node_modules/.bin/webpack",
+    "serve": "webpack-dev-server --hot --inline"
+  },
+  "author": "Ken Wheeler, Jason Lam"
+}
